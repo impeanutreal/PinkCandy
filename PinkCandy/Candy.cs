@@ -13,7 +13,6 @@ namespace PinkCandy
             Random rnd = new Random();
             int canche = rnd.Next(1, 100);
 
-           Log.Info(canche);
             if (canche >= 1 && canche <= 2)
             {
                 ev.Player.TryAddCandy(InventorySystem.Items.Usables.Scp330.CandyKindID.Pink);
